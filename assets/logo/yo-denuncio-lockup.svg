@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- YoDenuncio Lockup (Logo with text) -->
+  
+  <defs>
+    <linearGradient id="brandGradientLockup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E65F2F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Brand mark (scaled down) -->
+  <g transform="translate(0, 10) scale(0.8)">
+    <!-- Outer shield shape -->
+    <path d="M60 10 L100 30 L100 70 Q100 95, 60 110 Q20 95, 20 70 L20 30 Z" 
+          fill="url(#brandGradientLockup)" 
+          stroke="#2D3142" 
+          stroke-width="2"/>
+    
+    <!-- Megaphone symbol -->
+    <g transform="translate(60, 60)">
+      <!-- Megaphone cone -->
+      <path d="M-15 -8 L10 -15 L10 15 L-15 8 Z" 
+            fill="#FFFFFF" 
+            stroke="#2D3142" 
+            stroke-width="1.5"/>
+      
+      <!-- Sound waves -->
+      <path d="M12 -8 Q18 -8, 18 0 Q18 8, 12 8" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="2" 
+            stroke-linecap="round"/>
+      <path d="M20 -12 Q28 -12, 28 0 Q28 12, 20 12" 
+            fill="none" 
+            stroke="#FFFFFF" 
+            stroke-width="2" 
+            stroke-linecap="round"/>
+      
+      <!-- Handle -->
+      <rect x="-15" y="-3" width="8" height="6" 
+            fill="#FFFFFF" 
+            stroke="#2D3142" 
+            stroke-width="1.5" 
+            rx="2"/>
+      
+      <!-- Exclamation point -->
+      <circle cx="-18" cy="-15" r="2" fill="#FBBC04"/>
+      <rect x="-19" y="-28" width="2" height="10" fill="#FBBC04" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Text: YoDenuncio -->
+  <g transform="translate(120, 60)">
+    <!-- Yo -->
+    <text x="0" y="0" 
+          font-family="Roboto, sans-serif" 
+          font-size="36" 
+          font-weight="700" 
+          fill="#2D3142">Yo</text>
+    
+    <!-- Denuncio -->
+    <text x="48" y="0" 
+          font-family="Roboto, sans-serif" 
+          font-size="36" 
+          font-weight="400" 
+          fill="#4F5D75">Denuncio</text>
+  </g>
+  
+  <!-- Tagline (optional) -->
+  <text x="120" y="85" 
+        font-family="Roboto, sans-serif" 
+        font-size="12" 
+        font-weight="400" 
+        fill="#9E9E9E" 
+        letter-spacing="1">TU VOZ CUENTA</text>
+</svg>

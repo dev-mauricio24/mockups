@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- YoDenuncio Brand Mark - Monochrome Version -->
+  <!-- For use on colored backgrounds or single-color applications -->
+  
+  <!-- Outer shield shape -->
+  <path d="M60 10 L100 30 L100 70 Q100 95, 60 110 Q20 95, 20 70 L20 30 Z" 
+        fill="#2D3142" 
+        stroke="#2D3142" 
+        stroke-width="2"/>
+  
+  <!-- Megaphone symbol (monochrome) -->
+  <g transform="translate(60, 60)">
+    <!-- Megaphone cone -->
+    <path d="M-15 -8 L10 -15 L10 15 L-15 8 Z" 
+          fill="#FFFFFF" 
+          stroke="none"/>
+    
+    <!-- Sound waves -->
+    <path d="M12 -8 Q18 -8, 18 0 Q18 8, 12 8" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="2" 
+          stroke-linecap="round"/>
+    <path d="M20 -12 Q28 -12, 28 0 Q28 12, 20 12" 
+          fill="none" 
+          stroke="#FFFFFF" 
+          stroke-width="2" 
+          stroke-linecap="round"/>
+    
+    <!-- Handle -->
+    <rect x="-15" y="-3" width="8" height="6" 
+          fill="#FFFFFF" 
+          stroke="none" 
+          rx="2"/>
+    
+    <!-- Exclamation point (white for monochrome) -->
+    <circle cx="-18" cy="-15" r="2" fill="#FFFFFF"/>
+    <rect x="-19" y="-28" width="2" height="10" fill="#FFFFFF" rx="1"/>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="YoDenuncio mark (monochrome)">
+  <title>YoDenuncio mark (monochrome)</title>
+  <g fill="currentColor">
+    <path d="M256 24c82 0 168 26 168 26v178c0 53-30 102-79 128l-89 47-89-47c-49-26-79-75-79-128V50s86-26 168-26z"/>
+    <path d="M132 256l248-96-124 140-26 56-22-70-76-30z" fill="#fff"/>
+  </g>
+</svg>

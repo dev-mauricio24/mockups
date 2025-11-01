@@ -2,13 +2,12 @@
   "global": {
     "color": {
       "brand": {
-        "primary": {
-          "value": "#0B57D0",
-          "type": "color",
-          "description": "Provisional. Ajustar según paleta del mockup."
-        },
+        "primary": { "value": "#0E3A5A", "type": "color", "description": "Navy del logo (texto)" },
         "onPrimary": { "value": "#FFFFFF", "type": "color" },
-        "primaryContainer": { "value": "#D5E3FF", "type": "color" }
+        "secondary": { "value": "#F28C1F", "type": "color", "description": "Orange del escudo" },
+        "tertiary": { "value": "#0F9BA9", "type": "color", "description": "Teal del escudo" },
+        "accent": { "value": "#E06F00", "type": "color", "description": "Orange dark (acento avión)" },
+        "primaryContainer": { "value": "#E6EEF5", "type": "color", "description": "Derivado del primary para superficies" }
       },
       "neutral": {
         "bg": { "value": "#FFFFFF", "type": "color" },

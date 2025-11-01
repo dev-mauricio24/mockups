@@ -1,0 +1,423 @@
+{
+  "global": {
+    "brand": {
+      "primary": {
+        "value": "#FF6B35",
+        "type": "color",
+        "description": "YoDenuncio primary brand color - vibrant orange"
+      },
+      "secondary": {
+        "value": "#2D3142",
+        "type": "color",
+        "description": "YoDenuncio secondary brand color - dark blue-grey"
+      },
+      "accent": {
+        "value": "#4F5D75",
+        "type": "color",
+        "description": "YoDenuncio accent color - medium grey-blue"
+      },
+      "success": {
+        "value": "#34A853",
+        "type": "color",
+        "description": "Success state color"
+      },
+      "warning": {
+        "value": "#FBBC04",
+        "type": "color",
+        "description": "Warning state color"
+      },
+      "error": {
+        "value": "#EA4335",
+        "type": "color",
+        "description": "Error state color"
+      },
+      "info": {
+        "value": "#4285F4",
+        "type": "color",
+        "description": "Info state color"
+      }
+    },
+    "neutral": {
+      "50": {
+        "value": "#FAFAFA",
+        "type": "color"
+      },
+      "100": {
+        "value": "#F5F5F5",
+        "type": "color"
+      },
+      "200": {
+        "value": "#EEEEEE",
+        "type": "color"
+      },
+      "300": {
+        "value": "#E0E0E0",
+        "type": "color"
+      },
+      "400": {
+        "value": "#BDBDBD",
+        "type": "color"
+      },
+      "500": {
+        "value": "#9E9E9E",
+        "type": "color"
+      },
+      "600": {
+        "value": "#757575",
+        "type": "color"
+      },
+      "700": {
+        "value": "#616161",
+        "type": "color"
+      },
+      "800": {
+        "value": "#424242",
+        "type": "color"
+      },
+      "900": {
+        "value": "#212121",
+        "type": "color"
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "base": {
+          "value": "Roboto",
+          "type": "fontFamilies",
+          "description": "Primary font family as specified by client"
+        }
+      },
+      "fontSize": {
+        "xs": {
+          "value": "12",
+          "type": "fontSizes"
+        },
+        "sm": {
+          "value": "14",
+          "type": "fontSizes"
+        },
+        "base": {
+          "value": "16",
+          "type": "fontSizes"
+        },
+        "lg": {
+          "value": "18",
+          "type": "fontSizes"
+        },
+        "xl": {
+          "value": "20",
+          "type": "fontSizes"
+        },
+        "2xl": {
+          "value": "24",
+          "type": "fontSizes"
+        },
+        "3xl": {
+          "value": "30",
+          "type": "fontSizes"
+        },
+        "4xl": {
+          "value": "36",
+          "type": "fontSizes"
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "value": "120%",
+          "type": "lineHeights"
+        },
+        "normal": {
+          "value": "150%",
+          "type": "lineHeights"
+        },
+        "relaxed": {
+          "value": "175%",
+          "type": "lineHeights"
+        }
+      }
+    },
+    "spacing": {
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "64",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "sm": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "xl": {
+        "value": "16",
+        "type": "borderRadius"
+      },
+      "full": {
+        "value": "999",
+        "type": "borderRadius"
+      }
+    },
+    "shadow": {
+      "sm": {
+        "value": {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.05)"
+        },
+        "type": "boxShadow"
+      },
+      "base": {
+        "value": {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.1)"
+        },
+        "type": "boxShadow"
+      },
+      "md": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.12)"
+        },
+        "type": "boxShadow"
+      },
+      "lg": {
+        "value": {
+          "x": "0",
+          "y": "8",
+          "blur": "16",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.15)"
+        },
+        "type": "boxShadow"
+      },
+      "xl": {
+        "value": {
+          "x": "0",
+          "y": "12",
+          "blur": "24",
+          "spread": "0",
+          "color": "rgba(0, 0, 0, 0.18)"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "icon": {
+      "size": {
+        "xs": {
+          "value": "16",
+          "type": "sizing"
+        },
+        "sm": {
+          "value": "20",
+          "type": "sizing"
+        },
+        "base": {
+          "value": "24",
+          "type": "sizing"
+        },
+        "lg": {
+          "value": "32",
+          "type": "sizing"
+        }
+      },
+      "strokeWidth": {
+        "value": "1.5",
+        "type": "borderWidth",
+        "description": "Default stroke width for Lucide icons"
+      }
+    }
+  },
+  "light": {
+    "background": {
+      "primary": {
+        "value": "{neutral.50}",
+        "type": "color",
+        "description": "Primary background color for light mode"
+      },
+      "secondary": {
+        "value": "{neutral.100}",
+        "type": "color",
+        "description": "Secondary background color for light mode"
+      },
+      "tertiary": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Tertiary background color (cards, surfaces)"
+      }
+    },
+    "text": {
+      "primary": {
+        "value": "{neutral.900}",
+        "type": "color",
+        "description": "Primary text color"
+      },
+      "secondary": {
+        "value": "{neutral.700}",
+        "type": "color",
+        "description": "Secondary text color"
+      },
+      "tertiary": {
+        "value": "{neutral.500}",
+        "type": "color",
+        "description": "Tertiary text color (hints, placeholders)"
+      },
+      "onPrimary": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Text color on primary brand color"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "{neutral.300}",
+        "type": "color",
+        "description": "Default border color"
+      },
+      "subtle": {
+        "value": "{neutral.200}",
+        "type": "color",
+        "description": "Subtle border color"
+      },
+      "emphasis": {
+        "value": "{neutral.400}",
+        "type": "color",
+        "description": "Emphasis border color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "{neutral.700}",
+        "type": "color",
+        "description": "Default icon color"
+      },
+      "subtle": {
+        "value": "{neutral.500}",
+        "type": "color",
+        "description": "Subtle icon color"
+      },
+      "emphasis": {
+        "value": "{neutral.900}",
+        "type": "color",
+        "description": "Emphasis icon color"
+      },
+      "onPrimary": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Icon color on primary brand color"
+      }
+    },
+    "interactive": {
+      "default": {
+        "value": "{brand.primary}",
+        "type": "color",
+        "description": "Default interactive element color"
+      },
+      "hover": {
+        "value": "#E65F2F",
+        "type": "color",
+        "description": "Hover state color"
+      },
+      "active": {
+        "value": "#CC5429",
+        "type": "color",
+        "description": "Active/pressed state color"
+      },
+      "disabled": {
+        "value": "{neutral.300}",
+        "type": "color",
+        "description": "Disabled state color"
+      }
+    },
+    "status": {
+      "success": {
+        "value": "{brand.success}",
+        "type": "color"
+      },
+      "warning": {
+        "value": "{brand.warning}",
+        "type": "color"
+      },
+      "error": {
+        "value": "{brand.error}",
+        "type": "color"
+      },
+      "info": {
+        "value": "{brand.info}",
+        "type": "color"
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "light",
+      "name": "Light Mode",
+      "selectedTokenSets": {
+        "global": "enabled",
+        "light": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      "light"
+    ]
+  }
+}
